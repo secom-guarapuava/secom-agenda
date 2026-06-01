@@ -1,24 +1,17 @@
 // ============================================================
-//  CONFIGURAÇÃO DO FIREBASE  (preencher para ativar a nuvem)
+//  CONFIGURAÇÃO DO FIREBASE — Central SECOM
 // ============================================================
 //
-// Enquanto os campos estiverem vazios, o app funciona normalmente
-// salvando os dados SÓ no aparelho (como hoje). Assim que você colar
-// as chaves do seu projeto, o app passa a salvar na nuvem e sincroniza
-// em tempo real para TODA a equipe.
-//
-// Onde pegar: console.firebase.google.com → seu projeto →
-// ⚙️ Configurações do projeto → "Seus apps" → app Web → "Configuração".
-//
-// Pode colar estes valores aqui sem medo: a chave de API Web do Firebase
-// NÃO é secreta. A segurança vem das Regras do Firestore + login anônimo.
-// (Passo a passo completo no arquivo FIREBASE.md)
+// Este app usa Firebase para sincronizar os dados em tempo real.
+// A chave Web do Firebase não é uma senha secreta; a segurança fica nas
+// Regras do Firestore + autenticação anônima habilitada no Console.
 
 export const FIREBASE_CONFIG = {
-  apiKey: "",
-  authDomain: "",
-  projectId: "",
-  storageBucket: "",
-  messagingSenderId: "",
-  appId: "",
+  apiKey: "AIzaSyBlEKXYAPylY5sIEqSdqZnZIUyXwiCjW84",
+  authDomain: "central-secom.firebaseapp.com",
+  projectId: "central-secom",
+  storageBucket: "central-secom.firebasestorage.app",
+  messagingSenderId: "1073863820435",
+  appId: "1:1073863820435:web:89d92c0bf594f99b483966",
+  measurementId: "G-QH91DZ70TR",
 };
